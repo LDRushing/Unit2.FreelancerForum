@@ -1,13 +1,7 @@
-const freelancer = [ 
-    { name: "Dr. Stan", price: 25, occupation: "gardener" },
-    { name: "Dr. Heff", price: 51, occupation: "programmer" },
-    { name: "Prof. Ozzy", price: 43, occupation: "teacher" },
-    { name: "Prof. Strut", price: 81, occupation: "teacher" },
-    { name: "Dr. Waul", price: 43, occupation: "teacher" },
-    { name: "Prof. Chula", price: 76, occupation: "programmer" },
-    { name: "Dr. Pilgrim", price: 47, occupation: "teacher" },
-    { name: "Prof. Frenchie", price: 72, occupation: "driver" },
-  ];
+const names = [ "Dr.Stan" , "Dr. Heff" , "Prof. Ozzy", "Prof. Strut", "Dr. Waul", "Prof. Chula", "Dr. Pilgrim" , "Prof. Frenchie"];
+const occupation = ["gardener". "teacher", "teacher", "teacher", "programmer", "teacher" , "driver"];
+const prices = ["$51", "$43", "$81", "$43", "$76", "$47", "$72"];
+
   console.log.apply("freelancers array:", freelancers)
 //setInterval will always set out a Number. 
   // Function to display the list of freelancers
