@@ -41,7 +41,7 @@ const prices = [51, 43, 81, 43, 76, 47, 72]; //Don't add dollar signs to price a
 
   // You can add code to update the list and average price as new freelancers are added.
   // I might be able to periodically call displayFreelancers() and updateAveragePrice().
-   // This should cause new freelancers being added every few seconds
+   // This should cause new freelancers being added every few seconds. Math.floor(math.random) will help get random names, occupations and prices.
    //In arrays, make collections plural, but if functions are pushing a single thing, make it singular:
    function addFreelancer() {
     const name = names[Math.floor(Math.random() * names.length)];
